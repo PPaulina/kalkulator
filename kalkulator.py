@@ -1,3 +1,4 @@
+
 def dodaj get_help():
     print('To jest prosty program kalkulatora. Wprowadü dwie liczby i zatwierdü enterem.')
 def dodaj(a,b):
@@ -5,7 +6,8 @@ def dodaj(a,b):
     return wynik
     
 get_help() 
-zm1 = int(input())
-zm2 = int(input())
-print(dodaj(zm1, zm2))
+zmienna1 = int(input())
+zmienna2 = int(input())
+print(dodaj(zmienna1, zmienna2))
+
 
