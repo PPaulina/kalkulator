@@ -1,8 +1,8 @@
--def dodaj():
--	a = int(input('Podaj pierwsza liczbe'))
--	b = int(input('Podaj druga liczbe'))
--	print(a+b)
-+def dodaj(a, b):
-+	wynik = a + b
+ def dodaj(a, b):
+ 	wynik = a + b
+return wynik
  	
- dodawanie()
+dodaj() 
+zmienna1 = int(input())
+zmienna2 = int(input())
+print(dodaj(zmienna1, zmienna2))
