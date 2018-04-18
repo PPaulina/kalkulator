@@ -5,4 +5,4 @@ return wynik
 dodaj() 
 zmienna1 = int(input())
 zmienna2 = int(input())
-print(dodawanie(zmienna1, zmienna2))
+print(dodaj(zmienna1, zmienna2))
